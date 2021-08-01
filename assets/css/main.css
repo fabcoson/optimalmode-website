@@ -74,12 +74,9 @@ body::before {
 }
 
 .page-desc {
-  font-weight: 600;
   color: rgba(256, 256, 256, 0.75);
   width: 50%;
   line-height: 30px;
-  margin-top: 25px;
-  margin-bottom: 25px;
   font-size: 13px;
   font-family: Montserrat, sans-serif !important;
 }
