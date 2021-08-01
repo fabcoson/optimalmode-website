@@ -225,34 +225,24 @@
 
               <h6 class='sub-section-title' data-aos="zoom-in">Check out our panel<h6>
       <h2 class='section-title' data-aos="zoom-in">PANEL REVIEW</h2>
-			<div id="install-video-holder">
-				<iframe
-					id="install-video"
-					src="https://www.youtube-nocookie.com/embed/JvzqJL34kNg?controls=0"
-					title="Panel Review"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture controls=0&amp"
-                ></iframe>
-
+    <div class="panel-review">
+                <img class="panel-review__img" src="/assets/img/panel-review.png" alt="panel review" style="border-radius: 20px;">
             </div>
         </div>
 
-<style>#install-video-holder { height: 500px; width: 1000px; border-radius: 1.15rem; overflow: hidden; display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 150px;}
-  #install-video-holder > #install-video { width: 100%; height: 100%; }
+<style>
+.panel-review {
+object-fit:cover;
+margin-top: 40px;
+display: flex;
+align-items: center;
+justify-content: center
+}
 
-  @media (min-width: 320px) and (max-width: 480px) {
-  #install-video-holder {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-    }
+@media only screen and (max-width: 480px) {
+  .panel-review__img {
+    width: 90%;
+  }
 }
 </style>
                           <footer id='footer'>
